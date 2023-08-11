@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!--======================= favicon =======================-->
+	<link rel="shortcut icon" href="img/logo-favicon.ico" type="image/x-icon">
+
+	<!--======================= css =======================-->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!--======================= name =======================-->
+	<title>Arch move</title>
+
+	<!--======================= brief informative description =======================-->
+	<meta name="description" content="
+		ArturCodeCraft is a web development studio.
+		I create beautiful and functional websites using modern technologies.
+		Ready for individual solutions for your business.">
+
+	<!--======================= author =======================-->
+	<meta name="author" content="ArturCodeCraft">
+</head>
+
+<body>
+	<div class="wrapper">
+		<!--======================= header =======================-->
+		<header class="header" id="header">
+			<div class="header__container">
+				<a href="index.html" class="header__logo">
+					<img src="img/header-logo.svg" alt="logo">
+				</a>
+
+				<nav class="header__menu menu">
+					<div class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a href="#" class="menu__link">How it Works</a>
+							</li>
+
+							<li class="menu__item">
+								<a href="#" class="menu__link">Design Gallery</a>
+							</li>
+
+							<li class="menu__item">
+								<a href="#" class="menu__link">Architects</a>
+							</li>
+
+							<li class="menu__item">
+								<a href="#" class="menu__link">Articles</a>
+							</li>
+						</ul>
+
+						<div class="menu__buttons">
+							<a href="#" class="menu__sign-in">Sign In</a>
+
+							<a href="#" class="menu__sign-up _btn">Sign Up</a>
+						</div>
+					</div>
+
+					<div class="menu__actions">
+						<!-- theme change buttons -->
+						<button class="menu__change-theme change-theme" type="button" id="change-theme">
+							<!-- sun-line -->
+							<div class="change-theme__sun-line">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+									<path fill="none" d="M0 0h24v24H0z"></path>
+									<path
+										d="M12 18C8.68629 18 6 15.3137 6 12C6 8.68629 8.68629 6 12 6C15.3137 6 18 8.68629 18 12C18 15.3137 15.3137 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16ZM11 1H13V4H11V1ZM11 20H13V23H11V20ZM3.51472 4.92893L4.92893 3.51472L7.05025 5.63604L5.63604 7.05025L3.51472 4.92893ZM16.9497 18.364L18.364 16.9497L20.4853 19.0711L19.0711 20.4853L16.9497 18.364ZM19.0711 3.51472L20.4853 4.92893L18.364 7.05025L16.9497 5.63604L19.0711 3.51472ZM5.63604 16.9497L7.05025 18.364L4.92893 20.4853L3.51472 19.0711L5.63604 16.9497ZM23 11V13H20V11H23ZM4 11V13H1V11H4Z"
+										fill="rgba(0,0,0,1)"></path>
+								</svg>
+							</div>
+
+							<!-- moon-line -->
+							<div class="change-theme__moon-line">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+									<path fill="none" d="M0 0h24v24H0z"></path>
+									<path
+										d="M10 7C10 10.866 13.134 14 17 14C18.9584 14 20.729 13.1957 21.9995 11.8995C22 11.933 22 11.9665 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C12.0335 2 12.067 2 12.1005 2.00049C10.8043 3.27098 10 5.04157 10 7ZM4 12C4 16.4183 7.58172 20 12 20C15.0583 20 17.7158 18.2839 19.062 15.7621C18.3945 15.9187 17.7035 16 17 16C12.0294 16 8 11.9706 8 7C8 6.29648 8.08133 5.60547 8.2379 4.938C5.71611 6.28423 4 8.9417 4 12Z"
+										fill="rgba(0,0,0,1)"></path>
+								</svg>
+							</div>
+						</button>
+
+						<!-- icon menu -->
+						<button class="menu__icon" type="button">
+							<span></span>
+							<span></span>
+						</button>
+					</div>
+				</nav>
+			</div>
+		</header>
+
+		<!--======================= main =======================-->
+		<main class="page">
+			<!--======================= home =======================-->
+			<section class="page__main main">
+				<div class="main__container">
+					<h1 class="main__title">
+						Build Your
+						Dream <span>House</span>
+					</h1>
+
+					<div class="main__content">
+						<div class="main__data">
+							<p class="main__description">
+								100% guaranteed build safe,
+								comfortable and transparent with a
+								project management for the best result
+							</p>
+
+							<div class="main__action">
+								<button class="main__button _btn">Free Consultation</button>
+							</div>
+						</div>
+
+						<div data-slide-left class="main__image">
+							<div class="main__img _ibg">
+								<img src="img/main-image.png" alt="main image">
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!--======================= room =======================-->
+			<section class="page__room room">
+				<div class="room__container">
+					<h2 data-slide-right class="room__title">
+						Build professional
+						valuable room
+					</h2>
+
+					<!-- Slider main container -->
+					<div class="room__content swiper-room">
+						<!-- Additional required wrapper -->
+						<div class="swiper-room__wrapper">
+							<!-- Slides -->
+							<article data-slide-left class="swiper-room__slide _ibg">
+								<img src="img/room-1.png" alt="room image">
+							</article>
+
+							<article data-slide-right class="swiper-room__slide _ibg">
+								<img src="img/room-2.png" alt="room image">
+							</article>
+
+							<article data-slide-left class="swiper-room__slide _ibg">
+								<img src="img/room-3.png" alt="room image">
+							</article>
+
+							<article data-slide-right class="swiper-room__slide _ibg">
+								<img src="img/room-4.png" alt="room image">
+							</article>
+
+
+							<article data-slide-left class="swiper-room__slide _ibg">
+								<img src="img/room-1.png" alt="room image">
+							</article>
+
+							<article data-slide-right class="swiper-room__slide _ibg">
+								<img src="img/room-2.png" alt="room image">
+							</article>
+
+							<article data-slide-left class="swiper-room__slide _ibg">
+								<img src="img/room-3.png" alt="room image">
+							</article>
+
+							<article data-slide-right class="swiper-room__slide _ibg">
+								<img src="img/room-4.png" alt="room image">
+							</article>
+						</div>
+
+						<!-- If we need pagination -->
+						<div data-slide-left class="swiper__buttons">
+							<!-- If we need navigation buttons -->
+							<div class="swiper__button-prev">
+								<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M18 11V9H6L10 5L9 3L2 10L9 17L10 15L6 11H18Z" fill="#000" />
+								</svg>
+
+							</div>
+
+							<div class="swiper__button-next">
+								<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M2 11V9H14L10 5L11 3L18 10L11 17L10 15L14 11H2Z" fill="#000" />
+								</svg>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!--======================= consultation =======================-->
+			<section class="page__consultation consultation">
+				<div class="consultation__container">
+					<div class="consultation__content">
+						<div data-slide-left class="consultation__image">
+							<div class="consultation__img _ibg">
+								<img src="img/consultation-image.png" alt="consultation image">
+							</div>
+						</div>
+
+						<div class="consultation__data">
+							<h2 data-slide-right class="consultation__title">
+								Build your needs
+								with Archmove
+							</h2>
+
+							<ul class="consultation__list list-consultation">
+								<li data-slide-right class="list-consultation__item">
+									<div class="list-consultation__icon">
+										<img src="img/consultation-icon-1.svg" alt="icon">
+									</div>
+
+									<div class="list-consultation__data">
+										<h4 class="list-consultation__title">
+											100% guaranteed project completion
+										</h4>
+
+										<p class="list-consultation__description">
+											Build safe, comfortable and
+											transparent with a project management
+											application with a joint account.
+										</p>
+									</div>
+								</li>
+
+								<li data-slide-right class="list-consultation__item">
+									<div class="list-consultation__icon">
+										<img src="img/consultation-icon-2.svg" alt="icon">
+									</div>
+
+									<div class="list-consultation__data">
+										<h4 class="list-consultation__title">
+											No additional fees
+										</h4>
+
+										<p class="list-consultation__description">
+											There are no hidden costs. The value
+											of the offer you get is the value you
+											paid.
+										</p>
+									</div>
+								</li>
+
+								<li data-slide-right class="list-consultation__item">
+									<div class="list-consultation__icon">
+										<img src="img/consultation-icon-3.svg" alt="icon">
+									</div>
+
+									<div class="list-consultation__data">
+										<h4 class="list-consultation__title">
+											Get escort from the Team
+										</h4>
+
+										<p class="list-consultation__description">
+											Monitor reports from the Arsitag team
+											who check directly in the field.
+										</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div data-slide-down class="consultation__action">
+						<button class="consultation__button _btn">Free Consultation</button>
+					</div>
+				</div>
+			</section>
+
+			<!--======================= sound =======================-->
+			<section class="page__sound sound">
+				<div class="sound__container">
+					<h2 data-slide-right class="sound__title">
+						Sound Too Good
+						To Be True?
+					</h2>
+
+					<!-- Slider main container -->
+					<div data-slide-up class="sound__content swiper-sound">
+						<!-- Additional required wrapper -->
+						<div class="swiper-sound__wrapper">
+							<!-- Slides -->
+							<article class="swiper-sound__slide">
+								<div class="swiper-sound__icon">
+									<img src="img/sound-icon.svg" alt="icon">
+								</div>
+
+								<div class="swiper-sound__data">
+									<p class="swiper-sound__description">
+										“We just wanted to thank you for this
+										fantastic website! We are so grateful for
+										being able to advertise our Petite cabin and
+										receive feedback from people from all over
+										the U.S. and even further.”
+									</p>
+
+									<p class="swiper-sound__author">
+										Adam Morph — CEO Alfatech
+									</p>
+								</div>
+							</article>
+
+							<article class="swiper-sound__slide">
+								<div class="swiper-sound__icon">
+									<img src="img/sound-icon.svg" alt="icon">
+								</div>
+
+								<div class="swiper-sound__data">
+									<p class="swiper-sound__description">
+										"Lucille Is Thirsty... She Is A Vampire Bat!"
+									</p>
+
+									<p class="swiper-sound__author">
+										Negan Smith (TV Series) - Walking Dead
+									</p>
+								</div>
+							</article>
+						</div>
+
+						<!-- If we need pagination -->
+						<div class="swiper__buttons">
+							<!-- If we need navigation buttons -->
+							<div class="swiper__button-prev">
+								<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M18 11V9H6L10 5L9 3L2 10L9 17L10 15L6 11H18Z" fill="#000" />
+								</svg>
+
+							</div>
+
+							<div class="swiper__button-next">
+								<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M2 11V9H14L10 5L11 3L18 10L11 17L10 15L14 11H2Z" fill="#000" />
+								</svg>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!--======================= realize =======================-->
+			<section class="page__realize realize">
+				<div class="realize__container">
+					<div data-slide-up class="realize__image _ibg">
+						<img data-slide-up src="img/realize-skyscraper.png" alt="realize image">
+						<div data-slide-up class="_box-shadow"></div>
+					</div>
+
+					<div class="realize__data">
+						<h3 data-slide-left class="realize__title">
+							Realize your
+							dream project
+							with <span>Archmove</span>
+						</h3>
+
+						<div data-slide-left class="realize__action">
+							<button class="realize__button _btn">FREE CONSULTATION</button>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!--======================= partners =======================-->
+			<section class="page__partners partners">
+				<div class="partners__container">
+					<h2 data-slide-right class="partners__title">
+						Our Partners
+					</h2>
+
+					<div class="partners__list">
+						<a data-slide-up href="#" class="partners__item">
+							<img src="img/partners-1.svg" alt="partners image">
+						</a>
+
+						<a data-slide-up href="#" class="partners__item">
+							<img src="img/partners-2.svg" alt="partners image">
+						</a>
+
+						<a data-slide-up href="#" class="partners__item">
+							<img src="img/partners-3.svg" alt="partners image">
+						</a>
+
+						<a data-slide-up href="#" class="partners__item">
+							<img src="img/partners-4.svg" alt="partners image">
+						</a>
+
+						<a data-slide-up href="#" class="partners__item">
+							<img src="img/partners-5.svg" alt="partners image">
+						</a>
+
+						<a data-slide-up href="#" class="partners__item">
+							<img src="img/partners-6.svg" alt="partners image">
+						</a>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<!--======================= footer =======================-->
+		<footer data-slide-up class="footer">
+			<div class="footer__container">
+				<ul class="footer__menu menu-footer">
+					<li class="menu-footer__item">
+						<a href="#" class="menu-footer__link">About Us</a>
+					</li>
+
+					<li class="menu-footer__item">
+						<a href="#" class="menu-footer__link">How it Works</a>
+					</li>
+
+					<li class="menu-footer__item">
+						<a href="#" class="menu-footer__link">FAQ</a>
+					</li>
+
+					<li class="menu-footer__item">
+						<a href="#" class="menu-footer__link">Contact Us</a>
+					</li>
+
+					<li class="menu-footer__item">
+						<a href="#" class="menu-footer__link">Privacy Policy</a>
+					</li>
+				</ul>
+
+				<a href="index.html" class="footer__logo">
+					<img src="img/footer-logo.svg" alt="logo">
+				</a>
+			</div>
+		</footer>
+	</div>
+
+	<!--======================= scroll-up =======================-->
+	<a href="#" class="scroll-up" id="scroll-up">
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+			<path fill="none" d="M0 0h24v24H0z"></path>
+			<path
+				d="M11.9997 10.8284L7.04996 15.7782L5.63574 14.364L11.9997 8L18.3637 14.364L16.9495 15.7782L11.9997 10.8284Z"
+				fill="rgba(255,255,255,1)">
+			</path>
+		</svg>
+	</a>
+
+	<!--======================= swiper =======================-->
+	<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+	<!--======================= js =======================-->
+	<script src="js/script.js"></script>
+</body>
+
+</html>
+
+
+<!-- end -->
