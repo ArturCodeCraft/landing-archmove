@@ -17,3 +17,5 @@
 - [Swiper.js](https://swiperjs.com/)
 
 ![preview img](/preview.png)
+
+🖤 © 2023 "[ArturCodeCraft](https://github.com/ArturCodeCraft/)" - Where Art Meets Code 💛
